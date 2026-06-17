@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Privacy Policy ufficiale di Sport and Review Manager." />
+  <meta name="google-site-verification" content="O1teJnTqaHTwV5R3LPWrwrZOIW2YU_0wpAoisxVTaGA" />
+  <title>Privacy Policy | Sport and Review</title>
+  <style>
+    :root {
+      --primary: #002a3a;
+      --primary-dark: #001c27;
+      --accent: #0647ff;
+      --accent-soft: #e8efff;
+      --orange: #ff8a00;
+      --text: #1f2028;
+      --muted: #6f7480;
+      --card: #ffffff;
+      --bg: #f6f7fb;
+      --shadow: 0 16px 35px rgba(0, 42, 58, 0.12);
+      --radius-lg: 28px;
+      --radius-md: 20px;
+      --doc-blue: #0f4761;
+      --table-border: #666;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Aptos, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.55;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: radial-gradient(circle at top left, #0b4d65 0%, var(--primary) 42%, var(--primary-dark) 100%);
+      color: #fff;
+      padding: 42px 22px 72px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -120px;
+      top: -120px;
+      width: 280px;
+      height: 280px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .hero-inner,
+    main {
+      width: min(1080px, 100%);
+      margin: 0 auto;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo-wrap {
+      width: 92px;
+      height: 92px;
+      border-radius: 26px;
+      background: rgba(255, 255, 255, 0.1);
+      display: grid;
+      place-items: center;
+      box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+      overflow: hidden;
+    }
+
+    .logo-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(36px, 7vw, 64px);
+      letter-spacing: -1.7px;
+      line-height: 1;
+    }
+
+    main {
+      margin-top: -42px;
+      padding: 0 22px 56px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .privacy-document {
+      max-width: 900px;
+      margin: 0 auto;
+      background: var(--card);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(0, 42, 58, 0.05);
+      padding: 48px 58px;
+      color: #111;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .privacy-document h1,
+    .privacy-document h2,
+    .privacy-document h3,
+    .privacy-document h4 {
+      color: var(--doc-blue);
+      font-family: Aptos, "Segoe UI", Arial, sans-serif;
+      font-weight: 400;
+      line-height: 1.25;
+    }
+
+    .privacy-document h1 {
+      margin: 0 0 24px;
+      font-size: 28px;
+    }
+
+    .privacy-document h2 {
+      margin: 26px 0 12px;
+      font-size: 24px;
+    }
+
+    .privacy-document h3 {
+      margin: 32px 0 10px;
+      font-size: 20px;
+    }
+
+    .privacy-document h4 {
+      margin: 28px 0 10px;
+      font-size: 18px;
+      font-style: italic;
+    }
+
+    .privacy-document p {
+      margin: 0 0 12px;
+      text-align: justify;
+    }
+
+    .privacy-document ul,
+    .privacy-document ol {
+      margin: 4px 0 18px 32px;
+      padding-left: 22px;
+    }
+
+    .privacy-document li {
+      margin: 5px 0;
+      padding-left: 6px;
+      text-align: justify;
+    }
+
+    .privacy-document strong {
+      font-weight: 700;
+    }
+
+    .privacy-document em {
+      font-style: italic;
+    }
+
+    .table-wrap {
+      width: 100%;
+      margin: 8px 0 26px;
+      overflow-x: auto;
+    }
+
+    .privacy-document table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      color: #111;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .privacy-document th,
+    .privacy-document td {
+      border: 1px solid var(--table-border);
+      padding: 4px 9px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .privacy-document thead th,
+    .privacy-document tbody th {
+      font-weight: 700;
+    }
+
+    .privacy-document td p,
+    .privacy-document th p {
+      margin: 0 0 10px;
+      text-align: justify;
+    }
+
+    .privacy-document td p:last-child,
+    .privacy-document th p:last-child {
+      margin-bottom: 0;
+    }
+
+    .privacy-document td ul,
+    .privacy-document td ol {
+      margin: 4px 0 0 28px;
+      padding-left: 18px;
+    }
+
+    .privacy-document .nowrap {
+      white-space: nowrap;
+    }
+
+    .privacy-document .contact-table col:first-child { width: 42%; }
+    .privacy-document .contact-table col:last-child { width: 58%; }
+
+    .privacy-document .roles-table col:nth-child(1) { width: 31%; }
+    .privacy-document .roles-table col:nth-child(2) { width: 18%; }
+    .privacy-document .roles-table col:nth-child(3) { width: 51%; }
+
+    .privacy-document .data-table col:nth-child(1) { width: 22%; }
+    .privacy-document .data-table col:nth-child(2) { width: 49%; }
+    .privacy-document .data-table col:nth-child(3) { width: 29%; }
+
+    .privacy-document .two-col-table col:nth-child(1) { width: 27%; }
+    .privacy-document .two-col-table col:nth-child(2) { width: 73%; }
+
+    .privacy-document .legal-table col:nth-child(1) { width: 24%; }
+    .privacy-document .legal-table col:nth-child(2) { width: 25%; }
+    .privacy-document .legal-table col:nth-child(3) { width: 51%; }
+
+    .footer {
+      color: var(--muted);
+      text-align: center;
+      padding: 28px 16px 0;
+      font-size: 14px;
+    }
+
+    @media (max-width: 780px) {
+      .hero {
+        padding-top: 30px;
+      }
+
+      .brand {
+        align-items: flex-start;
+      }
+
+      .logo-wrap {
+        width: 74px;
+        height: 74px;
+        border-radius: 22px;
+      }
+
+      .privacy-document {
+        padding: 28px 22px;
+        border-radius: 24px;
+        font-size: 15px;
+      }
+
+      .privacy-document h1 {
+        font-size: 24px;
+      }
+
+      .privacy-document h2 {
+        font-size: 21px;
+      }
+
+      .privacy-document h3,
+      .privacy-document h4 {
+        font-size: 17px;
+      }
+
+      .privacy-document table {
+        min-width: 720px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="brand">
+        <div class="logo-wrap" aria-hidden="true">
+          <img src="logo.png" alt="Sport and Review logo" />
+        </div>
+        <div>
+          <h1>Sport and Review</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="privacy-document" aria-label="Privacy Policy Sport and Review Manager">
+      <h1>1&nbsp;&nbsp;Privacy Policy Sport and Review Manager</h1>
+
+      <h2>1.1&nbsp;&nbsp;Premesse</h2>
+      <p>Nel rispetto di quanto previsto dal Reg. UE 2016/679 (Regolamento Europeo per la protezione dei dati personali), Le illustriamo le dovute informazioni in ordine al trattamento dei dati personali da Lei forniti. L'informativa è redatta ai sensi dell'art. 13 del Reg. UE 2016/679 nonché in conformità al Parere 02/2013 sulle applicazioni (APP) per dispositivi intelligenti elaborato dal Gruppo di Lavoro Articolo 29 per la protezione dei dati.</p>
+      <p>Nel seguito del documento ci si riferirà con il termine:</p>
+      <ul>
+        <li><strong>Host (Struttura Sportiva)</strong>: strutture sportive che aderiscono alla piattaforma e ne utilizzano i servizi gestendo il servizio di prenotazione per la propria attività sportiva.</li>
+        <li><strong>Interessato (Atleta/Utente)</strong>: è l’utente/atleta del sistema che utilizza i servizi di prenotazione di una struttura gestita da un host, aderisce al programma di ranking e valutazione come meglio specificato nel seguito.</li>
+      </ul>
+
+      <h2>1.2&nbsp;&nbsp;Soggetti del Trattamento</h2>
+      <p>Titolare del trattamento, ai sensi degli artt. 4 e 24 del Reg. UE 2016/679 è Falconeye S.R.L. con sede in Via Padre Mario Vergara 222 Cap 80027, Frattamaggiore, nella persona del legale rappresentante pro-tempore.</p>
+      <div class="table-wrap">
+        <table class="contact-table">
+          <colgroup><col><col></colgroup>
+          <thead>
+            <tr><th>Contatto</th><th>Dettaglio</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Nome Azienda<br>(Responsabile/Titolare)</th><td>Falconeye SRL</td></tr>
+            <tr><th>P.IVA</th><td>10537411216</td></tr>
+            <tr><th>Sede Legale</th><td>FRATTAMAGGIORE (NA) Via Padre Mario Vergara 222<br>Cap 80027</td></tr>
+            <tr><th>PEC Azienda</th><td>falconeye@pec.it</td></tr>
+            <tr><th>Nome del DPO (Data Protection Officer)</th><td>Claudio Risi</td></tr>
+            <tr><th>Mail/PEC DPO</th><td>dpo@falconeyesrl.it</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>1.2.1&nbsp;&nbsp;Ruoli di Trattamento</h3>
+      <p>Questa sezione definisce nel dettaglio le parti e le responsabilità nel trattamento dei dati.</p>
+      <div class="table-wrap">
+        <table class="roles-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Ruolo</th><th>Nome<br>Azienda</th><th>Dettagli di Trattamento</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Titolare del Trattamento<br>(Data Controller)</th>
+              <td>Falconeye<br>SRL</td>
+              <td>
+                <p>Falconeye è il Titolare per i dati relativi alla gestione della piattaforma, ai profili Utente/Atleta (es. ranking, livello) e all'analisi video (dati particolari), ed è il soggetto che determina le finalità e i mezzi di tali specifici trattamenti.</p>
+                <p>Falconeye SRL gestisce la piattaforma informatica, l'infrastruttura di hosting, il cloud storage dei dati e dei video, l'elaborazione dei dati alfanumerici e dei video mediante algoritmi ed indicatori di performance.</p>
+                <p>Falconeye SRL gestisce direttamente l'infrastruttura hardware proprietaria (NAS) installata presso gli Host per la prima raccolta dei dati video, garantendo la sicurezza fisica e logica della registrazione locale.</p>
+              </td>
+            </tr>
+            <tr>
+              <th>Titolare<br>Autonomo/Contitolare<br>del Trattamento</th>
+              <td>Host<br>/Strutture<br>Sportive<br>Aderenti</td>
+              <td>
+                <p><em>Contitolarità</em>: Limitata esclusivamente alle fasi di raccolta dei dati di prenotazione e incasso pagamenti tramite l'App (Art. 26 GDPR). L'accordo definisce che Falconeye gestisce l'infrastruttura tecnica, mentre l'Host gestisce l'accoglienza fisica e la disponibilità dei campi.</p>
+                <p><em>Titolare Autonomo</em>: Per le finalità proprie di gestione interna (es. adempimenti fiscali, rapporto diretto con il cliente), gli Host operano come Titolari Autonomi. Per queste attività, Falconeye SRL declina ogni responsabilità per eventuali trattamenti illeciti da parte degli Host.</p>
+              </td>
+            </tr>
+            <tr>
+              <th>Fornitori di Servizi (Sub-Responsabili)</th>
+              <td>Heroku<br>(Salesforce)<br>WhatsApp<br>(Meta)<br>STRIPE<br>MailGo<br>Solar Winds</td>
+              <td>Falconeye si avvale di infrastrutture cloud di terze parti nominate Responsabili del Trattamento ex Art. 28 GDPR". L'elenco completo dei responsabili del trattamento è disponibile su richiesta al Titolare.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Tra Falconeye SRL e gli Host viene stipulato un apposito accordo di contitolarità che definisce le rispettive responsabilità. Gli aspetti essenziali dell'accordo di contitolarità sono messi a disposizione degli interessati su richiesta all'indirizzo del Titolare o consultabili all'interno della sezione dedicata dell'App, come previsto dall'Art. 26 GDPR. Per i trattamenti svolti autonomamente dagli Host (es. adempimenti fiscali), gli utenti possono rivolgersi direttamente alle strutture Host per esercitare i propri diritti e per consultare la loro informativa specifica.</p>
+
+      <h2>1.3&nbsp;&nbsp;Funzionamento dell’Applicazione</h2>
+      <p>L'applicazione Sport and Review Manager è uno strumento di gestione e feedback destinato alle strutture sportive ricreative. L'obiettivo è raccogliere informazioni per processare il flusso completo delle prenotazioni e fornire servizi accessori (rating/ranking, recensioni, analisi della performance).</p>
+      <p>Le funzionalità del sistema sono ottimizzate per gestire e supportare le seguenti tipologie di campi e strutture:</p>
+      <ul>
+        <li>Campi da Tennis</li>
+        <li>Campi di Padel</li>
+        <li>Campi di Calcio a 5, 8, e 11</li>
+        <li>Campi da Beach Volley</li>
+        <li>Campi da Pallavolo</li>
+        <li>Campi da Basket</li>
+      </ul>
+      <p>Oltre al flusso essenziale delle prenotazioni, l’applicazione informatica offre una vasta gamma di servizi accessori progettati per arricchire l'esperienza sia degli atleti (utenti) che per migliorare l'efficienza gestionale delle strutture sportive stesse.</p>
+      <p>I servizi aggiuntivi includono:</p>
+      <ul>
+        <li><strong>Per gli utenti atleti (anche definiti interessati)</strong>: Sistemi di rating/ranking, gestione del profilo sportivo, possibilità di lasciare recensioni dettagliate su servizi e accoglienza, e analisi della performance.</li>
+        <li><strong>Per le strutture sportive (definite anche Host)</strong>: Strumenti di gestione del campo, raccolta strutturata di feedback e dati utili al miglioramento dei servizi.</li>
+      </ul>
+
+      <h3>1.3.1&nbsp;&nbsp;Tipologia di Trattamento e Dati Trattati per l’Interessato</h3>
+      <p>L'applicazione Sport and Review Manager utilizza diversi flussi focalizzati sull'esperienza dell'utente e dell'atleta che prevedono il trattamento di varie tipologie di dati. Di seguito vengono esplicitati i singoli trattamenti ed i dati coinvolti per l’interessato.</p>
+
+      <h4>1.3.1.1&nbsp;&nbsp;Registrazione Utente/Atleta</h4>
+      <p>L’utente si registra nell'applicazione fornendo informazioni personali e dettagli relativi alla propria attività sportiva.</p>
+      <p>Dettagli del trattamento:</p>
+      <ol>
+        <li>L’interessato inserisce dati personali e informazioni sulla sua attività sportiva.</li>
+        <li>L’interessato sceglie un livello iniziale tra i 4 disponibili che attesta la sua abilità.</li>
+        <li>L’interessato inserisce dati sulla sua abilità sportiva.</li>
+      </ol>
+      <div class="table-wrap">
+        <table class="data-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Categoria Dati<br>Raccolti</th><th>Dati Specifici</th><th>Note</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Dati Anagrafici</th>
+              <td>Nome<br>Cognome<br>Data di Nascita<br>Altezza<br>Peso<br>Sesso<br>Foto (opzionale, caricata dall'utente come immagine profilo)</td>
+              <td>Dati personali per la profilazione base</td>
+            </tr>
+            <tr>
+              <th>Dati Sportivi</th>
+              <td>Stato di Pratica (Praticante/Non Praticante)<br>Struttura corporea (robusto, esile, ecc.; dato autodichiarato dall’utente)<br>Status Agonistico (Sì/No)<br>Livello Iniziale Scelto<br>Sport praticati</td>
+              <td>Dati per la profilazione sportiva di base</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>1.3.1.2&nbsp;&nbsp;Flusso di Prenotazione</h4>
+      <p>Il sistema facilita la prenotazione degli slot orari disponibili per i campi delle strutture aderenti. Gli utenti registrati hanno accesso a:</p>
+      <ol>
+        <li>Informazioni sulle disponibilità dei campi per ogni struttura.</li>
+        <li>Possibilità di prenotare un determinato campo sportivo per una specifica data e orario.</li>
+      </ol>
+      <div class="table-wrap">
+        <table class="data-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Categoria Dati<br>Raccolti</th><th>Dati Specifici</th><th>Note</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Dati<br>Prenotazione</th>
+              <td>Struttura<br>Campo<br>Data<br>Ora di Inizio<br>Ora di Fine<br>Stato Prenotazione<br>Pagamenti (mediante Stripe, si veda la cookie policy)</td>
+              <td>Dati essenziali per la gestione logistica</td>
+            </tr>
+            <tr>
+              <th>Dati Utente</th>
+              <td>Utente Prenotante</td>
+              <td>Per associare la prenotazione all'atleta</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Si precisa che Falconeye SRL non memorizza ne trasmette a terzi i dati relativi ai metodi/metodologie di pagamento impiegati dagli utenti.</p>
+
+      <h4>1.3.1.3&nbsp;&nbsp;Cerca Struttura</h4>
+      <p>Il sistema facilita la ricerca della struttura sportiva più vicina. Dettagli del trattamento:</p>
+      <ol>
+        <li>Informazioni sulla pozione dei campi.</li>
+        <li>Possibilità di condividere la propria posizione.</li>
+      </ol>
+      <div class="table-wrap">
+        <table class="data-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Categoria Dati<br>Raccolti</th><th>Dati Specifici</th><th>Note</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Dati<br>Localizzazione</th>
+              <td>Posizione</td>
+              <td>Dati essenziali per la ricerca delle strutture prossime.<br>La geolocalizzazione GPS è usata in tempo reale e non è memorizzata stabilmente.<br>I dati di localizzazione GPS vengono salvati in maniera pseudonima solo per le finalità di audit sui log di utilizzo.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>1.3.1.4&nbsp;&nbsp;Gestione del Livello Utente</h4>
+      <p>Questa funzione permette la profilazione dinamica dell'atleta in funzione della sua esperienza e delle caratteristiche, aggiornata attraverso l'interazione con gli altri utenti. L’applicazione possiede infatti un sistema di votazione (Ranking) per ciascun atleta: durante l'utilizzo, l’utente viene giudicato (votato) dagli altri utenti in base alle sue performance. Questo permette all'atleta di scalare una graduatoria, superare livelli e migliorare la propria posizione nel ranking in-app.</p>
+      <div class="table-wrap">
+        <table class="data-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Categoria Dati<br>Raccolti</th><th>Dati Specifici</th><th>Note</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Livello Corrente</th><td>Livello raggiunto (1-4)</td><td>Stato attuale dell'utente nel sistema</td></tr>
+            <tr><th>Storico<br>Votazioni</th><td>Storico delle votazioni/giudizi ricevuti<br>Voti giocatori (tattica, tecnica, comportamento, personalità, livello)</td><td>Utilizzato per l'algoritmo di calcolo del livello</td></tr>
+            <tr><th>Ranking Score</th><td>Punteggio calcolato per la posizione in graduatoria<br>Posizione nel Ranking</td><td>Dati derivati utilizzati per la profilazione pubblica</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>1.3.1.5&nbsp;&nbsp;Raccolta di Feedback/Recensioni</h4>
+      <p>L'utente può lasciare recensioni in merito ai servizi offerti dalla struttura, all'accoglienza e a tutto ciò che riguarda l'attività svolta, utilizzando votazioni da 1 a 5 stelle e da 1 a 10 per i servizi specifici.</p>
+      <div class="table-wrap">
+        <table class="data-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Categoria Dati<br>Raccolti</th><th>Dati Specifici</th><th>Note</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Dati di Feedback</th><td>Recensioni Testuali<br>Votazioni Servizi (1-10)<br>Votazioni Struttura (1-5 stelle)</td><td>Dati generati dall'utente sulla struttura</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>1.3.1.6&nbsp;&nbsp;Condivisione dei Replay/Ricordi</h4>
+      <p>In alcuni casi i campi possono essere dotati di un sistema di ripresa video gestito da Falconeye SRL. L'utente può richiedere attraverso la compilazione di un apposito form in app la condivisione mediante WhatsApp dei video raccolti a bordo campo dalle telecamere installate e gestite da Falconeye che riprendono gli highlights e i momenti salienti.</p>
+      <div class="table-wrap">
+        <table class="data-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Categoria Dati<br>Raccolti</th><th>Dati Specifici</th><th>Note</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Frame Video</th><td>Momenti/Ricordi video degli atleti</td><td>I video vengono condivisi su richiesta specifica dell’utente. Le clip video hanno puramente natura di carattere sportivo e sono legate esclusivamente all’attività svolta sul campo.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>1.3.1.7&nbsp;&nbsp;Analisi delle Performance (Tramite Riprese Video)</h4>
+      <p>Il sistema di ripresa video gestito da Falconeye SRL, permette di eseguire una analisi dettagliata della performance dell’atleta e di ritagliare gli highlights. In particolare, il processo di raccolta dei dati avviene come segue:</p>
+      <ol>
+        <li>Avvio Raccolta Immagini (mediante decisione di un utente). Le telecamere installate a bordo campo (se disponibili) vengono avviate manualmente da uno degli utenti (a cui è associato un account valido in piattaforma) mediante un apposito pulsante fisico a bordo campo o tramite una sezione dedicata all'interno dell'App (o pagina HTML).</li>
+        <li>Ambito della Ripresa. La ripresa copre la metà campo o l'area definita dall'inquadratura standard, catturando tutti i partecipanti presenti in quell'area.</li>
+        <li>Durata Registrazione. Le registrazioni sono temporizzate, da un minimo di 10 secondi a un massimo di 40 secondi, in base alle dimensioni del campo e agli input dell’utente. Le registrazioni terminano automaticamente al raggiungimento del tempo massimo impostato.</li>
+        <li>Modalità di Salvataggio Locale. Le immagini vengono salvate in prima istanza esclusivamente su server NAS di proprietà di Falconeye situati presso la struttura sportiva. I dati rimangono in tale sede per un massimo di 7 giorni.</li>
+        <li>Trasferimento per Elaborazione. Entro il termine di 7 giorni, uno script automatizzato importa le immagini nel Datacenter della sede operativa di Falconeye per la conversione in formato compatibile con il mobile e l'analisi tramite reti neurali (performance sportiva degli utenti, sintetizzata in indicatori e punteggi).</li>
+      </ol>
+      <p>Tutti i presenti in campo vengono ripresi, in quanto l'obiettivo è l'analisi dell'attività sportiva stessa.</p>
+      <div class="table-wrap">
+        <table class="data-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Categoria Dati<br>Raccolti</th><th>Dati Specifici</th><th>Note</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Dati Video</th><td>Clip Video (Highlight)<br>Timestamp di Inizio/Fine Registrazione<br>Durata Effettiva</td><td>Immagini di natura sportiva, gestite solo su attivazione (on-demand) dell'utente.</td></tr>
+            <tr><th>Dati Processati</th><td>Indicatori di Performance<br>Punteggi Analitici (Generati da Algoritmi/Reti Neurali)<br>Dati di Posizionamento/Movimento</td><td>Dati Particolari (Biometrici o relativi alla salute) ai sensi dell'Art. 9 del GDPR.</td></tr>
+            <tr><th>Dati di Avvio<br>Evento Ripresa</th><td>ID Utente Attivatore del Video<br>ID Partita/Evento Sportivo<br>Conferma dell'attivazione/consenso</td><td>Traccia l'utente responsabile dell'avvio della registrazione.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>1.3.2&nbsp;&nbsp;Tipologia di Trattamento e Dati Trattati per gli Host</h3>
+      <p>L'applicazione Sport and Review Manager fornisce alle strutture sportive gli strumenti necessari per registrarsi, gestire la propria disponibilità, elaborare le prenotazioni e interagire con il sistema di feedback degli atleti. Di seguito vengono esplicitati i singoli trattamenti ed i dati coinvolti raccolti per le strutture Host.</p>
+
+      <h4>1.3.2.1&nbsp;&nbsp;Registrazione Struttura</h4>
+      <p>La struttura sportiva si registra nel sistema informatico fornendo i dati identificativi, logistici e operativi essenziali. La procedura di registrazione di una struttura prevede il seguente flusso:</p>
+      <ol>
+        <li>Inserimento dei dati Identificativi: Nome, ragione sociale, partita IVA/codice fiscale.</li>
+        <li>Inserimento dei dati di contatto: Indirizzo, contatti telefonici, e-mail.</li>
+        <li>Inserimento e caratterizzazione dell’attività: Tipologia di sport gestiti, numero di campi disponibili, orari di apertura/chiusura.</li>
+        <li>Configurazione delle tipologie di servizi: Definizione dei servizi aggiuntivi offerti (es. bar, spogliatoi, parcheggio) e tariffe associate.</li>
+        <li>Accesso alla funzione calendario: Queste informazioni permettono alla struttura di avere accesso al calendario di disponibilità da offrire agli utenti atleti iscritti.</li>
+      </ol>
+      <div class="table-wrap">
+        <table class="data-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Categoria Dati<br>Raccolti</th><th>Dati Specifici</th><th>Note</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Dati Anagrafici<br>Struttura</th><td>Ragione Sociale<br>Partita IVA/Codice Fiscale<br>Nome Commerciale</td><td>Dati legali e identificativi.</td></tr>
+            <tr><th>Dati Logistici</th><td>Indirizzo Completo<br>Coordinate GPS</td><td>Per la geolocalizzazione e la raggiungibilità.</td></tr>
+            <tr><th>Dati di Contatto</th><td>E-mail<br>Numero di Telefono<br>Nome del Referente</td><td>Per comunicazioni e supporto.</td></tr>
+            <tr><th>Dati Operativi<br>Campi</th><td>Tipologia di Sport<br>Elenco Campi (con relativi ID, dimensioni, specifiche)<br>Orari di Apertura/Chiusura Standard</td><td>Per la configurazione del servizio di prenotazione.</td></tr>
+            <tr><th>Dati Servizi</th><td>Elenco Servizi Aggiuntivi<br>Prezzi/Tariffe per Campi e Servizi</td><td>Per il sistema di pagamento e recensione.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>1.3.2.2&nbsp;&nbsp;Gestione della Disponibilità e Calendario</h4>
+      <p>La struttura gestisce attivamente gli slot orari disponibili per la prenotazione da parte degli atleti. Il sistema permette alla struttura di:</p>
+      <ol>
+        <li>Definire la disponibilità oraria per ciascun campo (modificando gli orari standard o inserendo eccezioni).</li>
+        <li>Visualizzare il calendario delle prenotazioni attive e future.</li>
+      </ol>
+      <div class="table-wrap">
+        <table class="data-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Categoria Dati<br>Raccolti</th><th>Dati Specifici</th><th>Note</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Dati di<br>Configurazione</th><td>Giorni/Orari di Disponibilità per Campo.</td><td>Input fornito dalla struttura.</td></tr>
+            <tr><th>Dati Dinamici</th><td>Stato di Occupazione dello Slot (Prenotato/Disponibile).</td><td>Derivati dal Flusso di Prenotazione Utente.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h4>1.3.2.3&nbsp;&nbsp;Conferma/Annullamento/Stato Pagamento Prenotazioni</h4>
+      <p>La struttura prende parte al ciclo di vita di una prenotazione, dalla conferma alla ricezione pagamento. La struttura può:</p>
+      <ol>
+        <li>Ricevere la notifica di una nuova prenotazione e confermarla.</li>
+        <li>Annullare prenotazioni.</li>
+        <li>Verificare lo stato di pagamento associato alla prenotazione.</li>
+      </ol>
+      <div class="table-wrap">
+        <table class="data-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Categoria Dati<br>Raccolti</th><th>Dati Specifici</th><th>Note</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Dati Transazionali</th><td>Stato Pagamento (Pagato/In Sospeso/Rimborsato)<br>Metodo di Pagamento (solo se gestito dall'app)<br>Totale Pagato</td><td>Dati finanziari legati al servizio</td></tr>
+            <tr><th>Dati di Stato</th><td>Stato della Prenotazione (In Attesa, Confermata, Annullata)<br>Annullamento<br>Motivazione Annullamento</td><td>Dati di gestione forniti dalla struttura</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Si precisa che gli Host non hanno accesso ai dati relativi ai metodi/metodologie di pagamento impiegati dagli utenti.</p>
+
+      <h4>1.3.2.4&nbsp;&nbsp;Gestione dei Feedback ricevuti</h4>
+      <p>La struttura accede e monitora i feedback e le recensioni fornite dagli atleti registrati. A tal proposito la struttura può eseguire:</p>
+      <ol>
+        <li>Visualizzazione centralizzata delle recensioni testuali.</li>
+        <li>Visualizzazione dei punteggi aggregati (media voti) per i servizi e la struttura generale.</li>
+        <li>Possibilità di rispondere alle recensioni.</li>
+      </ol>
+      <div class="table-wrap">
+        <table class="data-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Categoria Dati<br>Raccolti</th><th>Dati Specifici</th><th>Note</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Dati di Feedback</th><td>Testo Recensione<br>Votazione Struttura (1-5 stelle)<br>Votazione Servizi (1-10)<br>Data Recensione<br>ID Utente Autore</td><td>Dati generati dagli atleti.</td></tr>
+            <tr><th>Dati Derivati</th><td>Media Totale dei Voti<br>Storico dei Voti<br>Mensili/Annui</td><td>Dati aggregati per l'analisi interna della struttura.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>1.3.3&nbsp;&nbsp;Ulteriori Dati trattati</h3>
+      <p>L'App raccoglie ulteriori informazioni, associate generalmente a un ID (pseudonimo), di istanza dell'App associata ad un certo profilo utente/atleta. Di seguito si riportano le ulteriori categorie di dati e la loro specifica natura, per maggiori informazioni si consulti la cookie policy.</p>
+      <div class="table-wrap">
+        <table class="two-col-table">
+          <colgroup><col><col></colgroup>
+          <thead>
+            <tr><th>Categoria Dati</th><th>Dati Specifici</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Dati di Utilizzo dell'App</th><td>Sessioni di login ed interazioni con le funzionalità (log di audit)</td></tr>
+            <tr><th>Dati del Dispositivo</th><td>N/A</td></tr>
+            <tr><th>Tecnologie di<br>Tracciamento</th><td>Firebase Performance/Crashlytics e Google Analytics</td></tr>
+            <tr><th>Tecnologie di Servizio</th><td>Firebase Cloud Messaging (FCM) - Token di Registrazione</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>1.4&nbsp;&nbsp;Base Giuridica del Trattamento</h2>
+      <p>Di seguito viene analizzata la base giuridica del trattamento delle varie tipologie di dati. Per i dati in formato foto/video si dedica un paragrafo con il dettaglio specifico del trattamento e la relativa base giuridica, vista la particolare natura del tipo di dato e del trattamento (AI based).</p>
+
+      <h3>1.4.1&nbsp;&nbsp;Base giuridica del Trattamento dei Dati Alfanumerici</h3>
+      <p>Questa sezione è relativa alla base giuridica, alle modalità di trattamento ed all’utilizzo dei dati alfanumerici gestiti dalla mobile app e dal relativo back-end.</p>
+      <div class="table-wrap">
+        <table class="legal-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Finalità</th><th>Base Giuridica</th><th>Dettagli di Utilizzo</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Funzionamento e<br>Miglioramento</th>
+              <td>Obblighi Contrattuali (art. 6, par. 1, lett. b GDPR)<br><br>Legittimo Interesse (art. 6, par. 1, lett. f GDPR)</td>
+              <td>Eseguire gli obblighi contrattuali (gestione prenotazioni, ranking, ecc.), fornire supporto tecnico, e creare/aggiornare il profilo sportivo (ranking e livello) per la personalizzazione dell'esperienza in App.</td>
+            </tr>
+            <tr>
+              <th>Sicurezza e<br>Monitoraggio</th>
+              <td>Legittimo Interesse (art. 6, par. 1, lett. f GDPR)</td>
+              <td>Eseguire analisi statistiche su dati aggregati per la risoluzione dei problemi, il test e la protezione del servizio.</td>
+            </tr>
+            <tr>
+              <th>Marketing e<br>Promozione/<br>Newsletter</th>
+              <td>Legittimo interesse (art. 6, par. 1, lett. f GDPR)</td>
+              <td>Per informare gli utenti delle novità e dei servizi offerti in piattaforma e comprendere il comportamento del pubblico, basandosi sul legittimo interesse, salvo il diritto di opposizione dell'utente. I dati utilizzati per tali finalità non contemplano i risultati delle analisi automatiche dei video.</td>
+            </tr>
+            <tr>
+              <th>Conformità<br>Legale e Antifrode</th>
+              <td>Obblighi Legali (art. 6, par. 1, lett. c GDPR)<br><br>Legittimo Interesse (art. 6, par. 1, lett. f GDPR)</td>
+              <td>Per prevenire frodi, proteggere i diritti e la proprietà, anche attraverso la divulgazione di dati alle autorità (se legalmente richiesto).</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>L'Utente si assume l'unica responsabilità per le immagini (es. foto profilo) o i contenuti multimediali e testuali (recensioni) caricati, garantendo di avere i diritti necessari e che tali contenuti non violino leggi o diritti di terzi (es. divieto di nudo, contenuti offensivi, immagini di terzi senza consenso).</p>
+      <p>Falconeye SRL non effettua alcuna attività di moderazione preventiva. L'Utente manleva Falconeye SRL da ogni responsabilità derivante dalla violazione dei diritti di terzi.</p>
+
+      <h3>1.4.2&nbsp;&nbsp;Base giuridica del Trattamento dei Dati Video/Fotografici</h3>
+      <p>Questa sezione è relativa alla base giuridica, alle modalità di trattamento ed all’utilizzo delle riprese video di natura sportiva trattati dalla mobile app e dal relativo back-end. L'azienda utilizza i dati fotografici per estrarre indicatori di performance sportiva e per l'analisi biomeccanica e tattica del gesto sportivo; sulla base del consenso esplicito dei partecipanti ripresi. Il tipo di elaborazione delle immagini prevede l’impiego di tecniche di Machine Learning/Reti Neurali per il calcolo dei punteggi analitici di performance e il taglio automatico degli highlights. I dati derivati (Indicatori di Performance, Punteggi Analitici, Dati di Posizionamento/Movimento) sono qualificati come Dati Particolari (Biometrici o relativi alla salute) ai sensi dell'Art. 9 del GDPR, in quanto estraggono informazioni dettagliate sulle caratteristiche fisiche e fisiologiche con finalità di analisi biomeccanica.</p>
+      <div class="table-wrap">
+        <table class="legal-table">
+          <colgroup><col><col><col></colgroup>
+          <thead>
+            <tr><th>Finalità</th><th>Base<br>Giuridica</th><th>Dettagli di Utilizzo</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Funzionamento del<br>sistema di Analisi<br>delle Performance</th>
+              <td>Consenso Esplicito (art. 9, par. 2, lett. a GDPR)</td>
+              <td>
+                <p>Il consenso esplicito, specifico e informato, è la base legale obbligatoria per il trattamento di dati particolari quali video/immagini. Tale consenso è pertanto richiesto a tutti gli utenti che desiderano accedere al servizio di analisi degli highlights basato su analisi delle immagini.</p>
+                <p>La modalità di raccolta del consenso per questa tipologia di servizio è resa esplicita sottoponendo l’utente/atleta ad una apposita informativa che prevede l’espressione esplicita di un consenso direttamente da una sezione dell’app. Tale consenso permetterà agli utenti di usufruire su tutte le strutture Host aderenti, del servizio di ripresa ed analisi delle immagini.</p>
+                <p>La modalità di raccolta del consenso prevede che gli utenti la spuntino una casella di selezione (flag ACCONSENTO) a valle della lettura dell’informativa e che subito dopo ricevano un SMS contenente un codice OTP da inserire in app come ulteriore conferma di presa visione ed accettazione dell’informativa di trattamento delle immagini. Il sistema di validazione tramite SMS OTP garantisce l'inalterabilità del consenso e l'identificazione certa dell'interessato, fungendo da misura di sicurezza tecnica superiore alla semplice spunta digitale.</p>
+                <p>Il sistema verificherà che gli utenti registrati associati alla prenotazione del campo abbiano prestato il Consenso Esplicito Video per rendere disponibili i risultati delle elaborazioni AI.</p>
+              </td>
+            </tr>
+            <tr>
+              <th>Invio dei video Ricordo<br>Mediante WhatsApp</th>
+              <td>Obblighi Contrattuali (art. 6, par. 1, lett. b GDPR)<br><br>Legittimo Interesse (art. 6, par. 1, lett. f GDPR)</td>
+              <td>I video decodificati sono resi disponibili dall’infrastruttura Heroku (Backend) che, su richiesta dell'utente mediante form in App che tiene traccia della volontà di ricezione del ricordo su WhatsApp, attiva l'invio automatizzato al numero di telefono registrato del richiedente.<br>In questo caso nessun algoritmo analizza o modifica il video.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>1.5&nbsp;&nbsp;Diritti dell'Utente</h2>
+      <p>Gli utenti hanno diversi diritti, esercitabili tramite l'invio di una richiesta all'indirizzo falconeye@pec.it o all'indirizzo PEC/e-mail del DPO.</p>
+      <div class="table-wrap">
+        <table class="two-col-table">
+          <colgroup><col><col></colgroup>
+          <thead>
+            <tr><th>Diritto/Opzione</th><th>Dettaglio</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Diritto alla<br>Portabilità dei Dati</th><td>L'utente può richiedere di ricevere i propri dati personali in un formato strutturato, di uso comune e leggibile da dispositivo automatico (ove tecnicamente fattibile).</td></tr>
+            <tr><th>Diritto di<br>Opposizione</th><td>L'utente può opporsi al trattamento basato sul legittimo interesse in conformità con il GDPR.</td></tr>
+            <tr><th>Diritto di<br>Limitazione</th><td>L’utente può richiedere la limitazione del trattamento dei dati in conformità con il GDPR.</td></tr>
+            <tr><th>Accesso,<br>Correzione,<br>Eliminazione</th><td>L’utente può richiedere l'accesso, la rettifica, o la cancellazione permanente (diritto all'oblio) dei dati personali controllati dall'azienda, nei limiti previsti dalla legge.</td></tr>
+            <tr><th>Revoca Permessi</th><td>L'utente può revocare i permessi concessi (es. accesso alla fotocamera, notifiche push, geolocalizzazione) direttamente dalle impostazioni del proprio dispositivo.<br>La revoca del consenso per i dati video comporta invece l'impossibilità di proseguire con l'analisi della performance con algoritmi di AI.</td></tr>
+            <tr><th>Bambini e Minori</th><td>Per i minori di 14 anni, l’app prevede la necessità di ottenere il consenso e l'autorizzazione di un genitore o tutore legale per la registrazione al servizio e, in particolare, per l'attivazione della funzione di ripresa video.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>1.6&nbsp;&nbsp;Informativa specifica per gli Host</h2>
+      <p>Agli Host si applica integralmente la presente informativa salvo quanto specificato di seguito:</p>
+      <ul>
+        <li>Tra i dati del Host che vengono trattati si ricordano in particolare nome e cognome, ragione sociale, codice fiscale, partita IVA, indirizzo del luogo dove l’attività sportiva è svolta, indirizzo di fatturazione, dati di pagamento, eventuale ordine professionale di appartenenza e numero di iscrizione, e-mail per la fatturazione, numero di telefono, immagini e video caricati, documenti di identità ed eventuali certificazioni comunicate.</li>
+        <li>Il profilo dell’Host può essere reso pubblico nella Piattaforma ed in tal caso le informazioni inserite sono quindi pubbliche e raggiungibili da tutti gli utilizzatori della Piattaforma. Tra le informazioni pubbliche ricordiamo: nome, cognome, zona, club di riferimento, dati di contatto, media, immagini, video, ogni altra ulteriore informazione aggiunta dallo stesso Host per scopi promozionali, caratteristiche e dettagli sui servizi offerti, e tutto quanto necessario per l’utilizzo dei servizi e le funzionalità della Piattaforma.</li>
+        <li>L’Host non potrà accedere/utilizzare i video e le immagini caricate dagli Utenti sulla Piattaforma in maniera pubblica o ai fini commerciali e di marketing.</li>
+      </ul>
+
+      <h2>1.7&nbsp;&nbsp;Archiviazione e Gestione dei Dati</h2>
+      <p>Questa sezione specifica luogo, modalità di conservazione e condivisione dei dati.</p>
+      <div class="table-wrap">
+        <table class="two-col-table">
+          <colgroup><col><col></colgroup>
+          <thead>
+            <tr><th>Elemento</th><th>Dettaglio</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Localizzazione dei<br>Dati</th>
+              <td>
+                <p>I dati sono così distribuiti:</p>
+                <ul>
+                  <li>Video Grezzi: Archiviati su NAS locali Falconeye presso l'Host (permanenza 7 gg). Si precisa che l'Host non dispone delle credenziali di accesso fisico o logico a tali storage, che restano sotto l'esclusivo controllo tecnico del Titolare.</li>
+                  <li>Elaborazione AI: Eseguita presso il Datacenter della sede operativa di Falconeye (Napoli, Italia).</li>
+                  <li>Backend &amp; Orchestrazione: Gestiti su server Heroku (Salesforce) situati all'interno dello Spazio Economico Europeo (SEE).</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Divulgazione a Terze<br>Parti (Dati Grezzi)</th>
+              <td>Falconeye SRL non divulga, vende o scambia i dati personali (inclusi i video grezzi) con terze parti per finalità di marketing o profilazione commerciale esterna. La condivisione avviene esclusivamente con soggetti necessari all'erogazione del servizio (es. Strutture Sportive Aderenti, sub-responsabili per l'hosting/analisi) e solo per le finalità esplicitate nella presente informativa. <strong>Tali soggetti operano in qualità di Responsabili e/o Titolari Autonomi del Trattamento, vincolati contrattualmente.</strong></td>
+            </tr>
+            <tr>
+              <th>Trasferimenti<br>Internazionali<br>(Extra-SEE)</th>
+              <td>Non sono previsti trasferimenti di dati al di fuori del SEE, salvo se strettamente necessari per l'erogazione dei servizi e solo in presenza di clausole contrattuali standard (SCC) o decisioni di adeguatezza.</td>
+            </tr>
+            <tr>
+              <th>Tempi di<br>conservazione dei<br>dati</th>
+              <td>
+                <p>Per i dati in formato alfanumerico e testuale si prevede un tempo di conservazione pari a tutto il tempo di validità dell’account. Dopo la cessazione del rapporto, i dati sono conservati per un periodo massimo di 6 mesi dalla cessazione/cancellazione dell'account, salvo necessità di adempimenti legali e fiscali (massimo 10 anni).</p>
+                <p>I video grezzi e le clip ritagliate (Highlights) vengono cancellati automaticamente entro 7 giorni dalla raccolta da tutti i sistemi coinvolti.</p>
+                <p>I dati derivati e gli indicatori di performance sono conservati per tutto il tempo di validità dell'account.</p>
+                <p>Il sistema memorizza anche i log di audit che vengono conservati per un tempo di 14 giorni.</p>
+              </td>
+            </tr>
+            <tr>
+              <th>Obblighi Legali e<br>Pubblica Sicurezza</th>
+              <td>I dati possono essere divulgati a enti pubblici o autorità giudiziarie solo se richiesto in base a un obbligo legale o per la protezione dei diritti e della proprietà, anche attraverso la divulgazione di dati non fotografici alle autorità (se legalmente richiesto).</td>
+            </tr>
+            <tr>
+              <th>Crittografia e<br>Accesso delle<br>Immagini/Video</th>
+              <td>Le foto/video sono crittografate durante il trasferimento (protocollo TLS/SSL) e a riposo (AES-256) sui server cloud per garantirne la sicurezza. L'accesso è limitato esclusivamente ai sistemi automatizzati di processamento.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <footer class="footer">
+      <p>© 2026 FALCONEYE Srl. Tutti i diritti riservati.</p>
+      <p>Sport and Review</p>
+    </footer>
+  </main>
+</body>
+</html>
