@@ -71,6 +71,14 @@
       margin: 0 auto;
     }
 
+    .hero-inner {
+      width: min(900px, 100%);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
     .brand {
       display: flex;
       align-items: center;
@@ -82,6 +90,7 @@
     .logo-wrap {
       width: 92px;
       height: 92px;
+      flex-shrink: 0;
       border-radius: 26px;
       background: rgba(255, 255, 255, 0.1);
       display: grid;
@@ -93,7 +102,7 @@
     .logo-wrap img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       display: block;
     }
 
@@ -102,6 +111,39 @@
       font-size: clamp(36px, 7vw, 64px);
       letter-spacing: -1.7px;
       line-height: 1;
+    }
+
+    .download-button {
+      display: inline-flex;
+      align-items: center;
+      align-self: flex-end;
+      gap: 8px;
+      flex-shrink: 0;
+      position: relative;
+      z-index: 1;
+      padding: 15px 0;
+      color: #fff;
+      background: transparent;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .download-button:hover,
+    .download-button:focus-visible {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .download-button:focus-visible {
+      outline: 2px solid #fff;
+      outline-offset: 5px;
+      border-radius: 2px;
+    }
+
+    .download-button svg {
+      width: 20px;
+      height: 20px;
+      stroke: currentColor;
     }
 
     main {
@@ -259,7 +301,7 @@
         padding-top: 30px;
       }
 
-      .brand {
+      .hero-inner {
         align-items: flex-start;
       }
 
@@ -267,6 +309,14 @@
         width: 74px;
         height: 74px;
         border-radius: 22px;
+      }
+
+      .download-button {
+        padding: 0;
+      }
+
+      .download-button span {
+        display: none;
       }
 
       .privacy-document {
@@ -305,6 +355,14 @@
           <h1>Sport and Review</h1>
         </div>
       </div>
+      <a class="download-button" href="privacy_policy.pdf" download="privacy_policy.pdf" aria-label="Scarica la Privacy Policy in PDF">
+        <span>Download</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 3v12"></path>
+          <path d="m7 10 5 5 5-5"></path>
+          <path d="M5 21h14"></path>
+        </svg>
+      </a>
     </div>
   </header>
 
